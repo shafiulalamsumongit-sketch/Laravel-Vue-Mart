@@ -9,6 +9,9 @@ export default {
       container: {
         center: true,
         padding: '1rem',
+        fontFamily: {
+        body: ['Inter', 'sans-serif'],
+      },
         screens: { xl: '1280px', '2xl': '1440px' }
       }
     },

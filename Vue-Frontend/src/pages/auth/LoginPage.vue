@@ -44,7 +44,7 @@ const router    = useRouter()
 const route     = useRoute()
 const authStore = useAuthStore()
 
-const form    = ref({ email: '', password: '' })
+const form    = ref({ email: 'customer@vuemart.com', password: 'password' })
 const loading = ref(false)
 const error   = ref('')
 
